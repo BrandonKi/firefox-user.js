@@ -225,10 +225,10 @@ user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 user_pref("extensions.pocket.enabled", false);
 
 /** DOWNLOADS ***/
-user_pref("browser.download.useDownloadDir", false);
+user_pref("browser.download.useDownloadDir", true);
 user_pref("browser.download.alwaysOpenPanel", false);
 user_pref("browser.download.manager.addToRecentDocs", false);
-user_pref("browser.download.always_ask_before_handling_new_types", true);
+// user_pref("browser.download.always_ask_before_handling_new_types", true);
 
 /** PDF ***/
 user_pref("browser.download.open_pdf_attachments_inline", true);
@@ -295,10 +295,10 @@ user_pref("browser.formfill.enable", true);
 // user_pref("browser.tabs.firefox-view", true);
 
 // PREF: restore Firefox accounts
-// user_pref("identity.fxaccounts.enabled", true);
+user_pref("identity.fxaccounts.enabled", true);
 
 // PREF: Push API seems to be needed for Sync
-// user_pref("dom.push.enabled", true);
+user_pref("dom.push.enabled", true);
 
 // PREF: disable allowance for embedded tweets, Instagram, Reddit, and Tiktok posts
 // [NOTE] This matches the default behavior for `Strict` tracking protection
